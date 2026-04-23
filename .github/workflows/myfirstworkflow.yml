@@ -8,8 +8,10 @@ jobs:
     steps:
       - name: Print Hello
         run: echo "Hello World"
+      - name: Repo Clone 
+        uses: actions/checkout@v4
       - name: Print Hello again
         run : node function.js
-        
+
 
 
