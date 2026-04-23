@@ -8,5 +8,8 @@ jobs:
     steps:
       - name: Print Hello
         run: echo "Hello World"
+      - name: Print Hello again
+        run : node function.js
+        
 
 
